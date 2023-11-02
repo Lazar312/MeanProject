@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+            <button (click)="logout()" id="buttonC2">Izloguj se</button>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">   
+        <ul>
+        <li><button (click)="profile()" id="buttonC1">Profil</button></li>
+        <li><button (click)="doctors()" id="buttonC1">Lekari</button></li>
+        <li><button (click)="checkup()" id="buttonC1">pregledi</button>
+        <li><button (click)="notifications()" id="buttonC1">Obavestenja</button>    
+        <li><button (click)="changepass()" id="buttonC1">Promena lozinke</button></li>
+        </ul>
+        </div>
+        <div class="col-sm-10" >
+            <div class="row">
+            <div class="col-sm-3" >
+            <table>
+                
+                <tr>
+                    <td>
+                        Ime: <output type="text" style="color:green">{{firstname}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Prezime: <output type="text" style="color:green">{{lastname}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Adresa: <output type="text" style="color:green">{{adress}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Telefon: <output type="text" style="color:green">{{phone}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email: <output type="text" style="color:green">{{email}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="buttonC3" (click)="changeInfo()" >Promeni informacije</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-sm-3">
+            <img [src]="SafeImageUrl" alt="profilna slika" width="250" height="250">
+        <br/>
+            <button (click)="changeImage()"  class="buttonC3">Promeni profilnu sliku</button>
+        </div>
+        <div class="col-sm-4" style="padding-top: 3%;">
+            <div *ngIf="updatepicture">
+                Postavite novu profilnu sliku:
+                <input style="width: auto;" type='file' class="form-control box-input"  (change)="openfile($event)" >
+                <button (click)="updatePicture()" class="buttonC3">Promeni</button>
+                <button (click)="closeP()" class="buttonC3">Zatrvori prozor</button>
+                <br/>
+                <output type="text" style="color:red">{{ImageMessageError}}</output>
+            </div>
+        </div>
+        
+    </div>
+    <div class="row">
+        <div *ngIf="updateinfo" class="col-sm-10" style="background-image: none;">
+            <div  style="display: flex; justify-content: center; align-items: center; padding-top: 2%;padding-bottom: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Azuriraj podatke</h3>
+                        <br/>
+                            <input placeholder="Ime" type="text" value="firstname" class="form-control box-input"  [(ngModel)]="firstnameUpdate">
+                            <br>
+                            <input placeholder="Prezime" type="text" value="lastname" class="form-control box-input" [(ngModel)]="lastnameUpdate" >
+                            <br>
+                            <input placeholder="Adresa" type="text" value="adress" class="form-control box-input" [(ngModel)]="adressUpdate" >
+                            <br>
+                            <input placeholder="Kontakt Telefon" type="text" value="phone" class="form-control box-input" [(ngModel)]="phoneUpdate" (blur)="phoneBlur()" (input)="phoneBlur()">
+                            <output type="text" style="color:red">{{MessagePhone}}</output>
+                            <input placeholder="Email" type="text" value="email" class="form-control box-input"  [(ngModel)]="emailUpdate" (blur)="emailBlur()" (input)="emailBlur()">
+                            <output type="text" style="color:red">{{MessageEmail}}</output>
+                            <br/>
+                            <button (click)="updateInfo()" class="buttonC4">Azuriraj</button>
+                            <div style="padding-top: 1%;">
+                                <button (click)="close()" class="buttonC4"> Zatvori Prozor</button>
+                            </div>
+                            <output type="text" style="color:green">{{Message}}</output>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+    &copy; 2023. All Rights Reserved.
+  </footer>
+</html>

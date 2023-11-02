@@ -1,0 +1,1608 @@
+[{
+  "_id": {
+    "$oid": "6501eee27fea630bd6d64996"
+  },
+  "text": "Zakazan pregled za sutra Operacija u 16:37 kod doktora 2023-09-14",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695002220000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501f46b7fea630bd6d649bd"
+  },
+  "text": "asgasggsagasasg",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694626923327"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501f46b7fea630bd6d649bf"
+  },
+  "text": "asgasggsagasasg",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694626923328"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501f46b7fea630bd6d649c1"
+  },
+  "text": "asgasggsagasasg",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694626923326"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dba7fea630bd6d64ae5"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653882409"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dba7fea630bd6d64ae7"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653882408"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dba7fea630bd6d64ae9"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653882409"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dbd7fea630bd6d64af2"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653885694"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dbd7fea630bd6d64af4"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653885694"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dbd7fea630bd6d64af6"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653885695"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dc97fea630bd6d64aff"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653897447"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dc97fea630bd6d64b01"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653897447"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dc97fea630bd6d64b07"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653897447"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dcc7fea630bd6d64b0c"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 5000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653900849"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dcc7fea630bd6d64b0e"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 5000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653900850"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dcc7fea630bd6d64b10"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 5000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653900850"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd17fea630bd6d64b19"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 6000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653905030"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd17fea630bd6d64b1b"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 6000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653905030"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd17fea630bd6d64b1e"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 6000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653905031"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd47fea630bd6d64b26"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": true,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653908347"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd47fea630bd6d64b28"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694653908347"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65025dd47fea630bd6d64b2a"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694653908347"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026ce37fea630bd6d64c6e"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 23:15 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694812500000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026ce67fea630bd6d64c73"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 23:15 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694812500000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026e627fea630bd6d64c8b"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 15:22 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": true,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694784120000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026e697fea630bd6d64c90"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 17:22 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694791320000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026e8a7fea630bd6d64c97"
+  },
+  "text": "Zakazan pregled za 2023-09-17 u 04:23 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694830980000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026e917fea630bd6d64c9c"
+  },
+  "text": "Zakazan pregled za 2023-09-17 u 06:23 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694838180000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026e9c7fea630bd6d64ca1"
+  },
+  "text": "Zakazan pregled za 2023-09-17 u 02:23 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694823780000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502700c7fea630bd6d64cd2"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694658572221"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502700c7fea630bd6d64cd4"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694658572221"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6502700c7fea630bd6d64cda"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1000 dinara",
+  "read": true,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694658572220"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650270107fea630bd6d64cdf"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694658576351"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650270107fea630bd6d64ce3"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 100 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694658576352"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71a31e6c3695563441f"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 14:00 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": true,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694779200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71b31e6c36955634426"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 14:30 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": true,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694781000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71d31e6c3695563442d"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 15:00 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694782800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72131e6c36955634435"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 15:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694784600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72631e6c3695563443b"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 16:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694786400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72731e6c36955634443"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 16:30 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694788200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72731e6c36955634449"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 17:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": true,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694790000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b78631e6c36955634450"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 23:30 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694813400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b78631e6c36955634457"
+  },
+  "text": "Zakazan pregled za 2023-09-16 u 23:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694811600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8b831e6c36955634462"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 00:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695160800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c36955634469"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 00:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695162600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c36955634470"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 01:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695164400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c36955634477"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 02:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695168000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bb31e6c3695563447e"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 02:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695169800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bb31e6c36955634485"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 04:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695175200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bb31e6c3695563448c"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 06:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695184200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bb31e6c36955634493"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 08:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695191400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bc31e6c3695563449a"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 06:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695182400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bc31e6c369556344a1"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 05:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695180600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8c031e6c369556344a9"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 05:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695178800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65046b23e3f13f8b4e66f82c"
+  },
+  "text": "Zakazan pregled za 2023-09-17 u 00:00 kod doktora Dragan Petrovic, naziv pregledaVađenje zuba",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694815200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f633991aedb6dec2b169"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 01:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695166200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f636991aedb6dec2b170"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 03:00 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695171600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f67d991aedb6dec2b17e"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694955133951"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f67d991aedb6dec2b180"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955133952"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f67d991aedb6dec2b182"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694955133952"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f67d991aedb6dec2b188"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955133952"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f881991aedb6dec2b1b6"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694955649230"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f881991aedb6dec2b1b8"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955649230"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f881991aedb6dec2b1ba"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955649230"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f881991aedb6dec2b1bc"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694955649231"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f8f1895145760e7d6b3f"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694955761708"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f8f1895145760e7d6b45"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955761708"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f8f1895145760e7d6b47"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1694955761709"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f8f1895145760e7d6b49"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija srca na 1000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1694955761710"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f936895145760e7d6b58"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 23:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695245400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f957895145760e7d6b5f"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 19:30 kod doktora Dragan Draganovic, naziv pregledaOperacija srca",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695231000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0afb640439a2e3540e"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 05:30 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695180600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0bfb640439a2e35415"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 06:30 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695184200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0bfb640439a2e3541c"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 06:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695182400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0cfb640439a2e35423"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 05:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695178800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f11fb640439a2e3542a"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 07:15 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695186900000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f15fb640439a2e35431"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 08:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695189600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072246fb640439a2e35465"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 04:00 kod doktora Dragan Draganovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695175200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072740fb640439a2e35582"
+  },
+  "text": "Zakazan pregled za 2023-09-18 u 00:00 kod doktora Dragan Petrovic, naziv pregledaVađenje zuba",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694901600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507286afb640439a2e355ac"
+  },
+  "text": "Zakazan pregled za 2023-09-18 u 00:00 kod doktora Dragan Petrovic, naziv pregledaVađenje zuba",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694901600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507287dfb640439a2e355c2"
+  },
+  "text": "Doktor je otkazao pregled \"Vađenje zuba\" koji je trebao da se odrzi 2023-09-18 u 00:00h iz razloga: ",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694967933938"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650728cbfb640439a2e355e8"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 00:00 kod doktora Dragan Petrovic, naziv pregledaVađenje zuba",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695247200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072e2885bd28e5cd43eb5e"
+  },
+  "text": "Zakazan pregled za 2023-09-17 u 18:50 kod doktora Dragan Petrovic, naziv pregledaOperacija",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1694883000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c1c891c10b90f02ae41"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1500 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695054876767"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c1c891c10b90f02ae48"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1500 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695054876768"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c1c891c10b90f02ae4a"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1500 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695054876768"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c1c891c10b90f02ae4c"
+  },
+  "text": "Menager je promenio cenu pregleda Vađenje zuba na 1500 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1695054876768"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c65891c10b90f02ae57"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija na 120 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695054949531"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c65891c10b90f02ae5a"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija na 120 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695054949530"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c65891c10b90f02ae5c"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija na 120 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695054949530"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65087c65891c10b90f02ae5e"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija na 120 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1695054949531"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650883c0891c10b90f02aed3"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 04:00 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695261600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650883c1891c10b90f02aeda"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 03:30 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695259800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650883c3891c10b90f02aee1"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 04:30 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695263400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650883de891c10b90f02aee8"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 21:00 kod doktora Dragan Draganovic, naziv pregledaOperacija mozga",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695322800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af03"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019060"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af05"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019060"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af07"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019060"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af09"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019060"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af0b"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019060"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508847b891c10b90f02af0d"
+  },
+  "text": "Menager je promenio cenu pregleda Operacija slepog creva na 10000 dinara",
+  "read": false,
+  "patient": "Lala",
+  "timeMiliseconds": {
+    "$numberLong": "1695057019061"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088543891c10b90f02af74"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 03:30 kod doktora Dragan Petrovic, naziv pregledaVadjenje zuba",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695259800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508858d891c10b90f02af8a"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 03:00 kod doktora Dragan Petrovic, naziv pregledaOtklanjanje karijesa",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695258000000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088607891c10b90f02afb3"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 07:30 kod doktora Dragan Petrovic, naziv pregledaVadjenje zuba",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695274200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088608891c10b90f02afba"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 05:00 kod doktora Dragan Petrovic, naziv pregledaVadjenje zuba",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695265200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088608891c10b90f02afc1"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 09:00 kod doktora Dragan Petrovic, naziv pregledaVadjenje zuba",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695279600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088609891c10b90f02afc8"
+  },
+  "text": "Zakazan pregled za 2023-09-22 u 06:30 kod doktora Dragan Petrovic, naziv pregledaVadjenje zuba",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695270600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b001"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834218"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b003"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834219"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b005"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834220"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b007"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834220"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b009"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834221"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650887aa891c10b90f02b00b"
+  },
+  "text": "Kupite colgate pastu za zube i ostvarite 2% popusta na pregled stomatologa",
+  "read": false,
+  "patient": "Lala",
+  "timeMiliseconds": {
+    "$numberLong": "1695057834221"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508887a891c10b90f02b042"
+  },
+  "text": "Zakazan pregled za 2023-09-18 u 19:28 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1694971680000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650888ad891c10b90f02b04d"
+  },
+  "text": "Zakazan pregled za 2023-09-18 u 23:05 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1694984700000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650888bf891c10b90f02b054"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 12:05 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695031500000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650888cb891c10b90f02b05b"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 23:30 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695072600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650888e4891c10b90f02b062"
+  },
+  "text": "Zakazan pregled za 2023-09-20 u 00:30 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": false,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695076200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b071"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227183"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b073"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227183"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b075"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": false,
+  "patient": "lazar3124",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227184"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b077"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": false,
+  "patient": "lazar31245",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227185"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b079"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227185"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088933891c10b90f02b07e"
+  },
+  "text": "Menager je promenio cenu pregleda Ultrazvuk srca na 100 dinara",
+  "read": false,
+  "patient": "Lala",
+  "timeMiliseconds": {
+    "$numberLong": "1695058227186"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088976891c10b90f02b092"
+  },
+  "text": "Zakazan pregled za 2023-09-18 u 20:30 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1694975400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650889b2891c10b90f02b099"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 12:00 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695031200000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650889f6891c10b90f02b0a0"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 13:05 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695035100000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088a16891c10b90f02b0a7"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 13:10 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695035400000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088a1f891c10b90f02b0ae"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 13:15 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695035700000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088a24891c10b90f02b0b5"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 13:25 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695036300000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088a29891c10b90f02b0bc"
+  },
+  "text": "Zakazan pregled za 2023-09-19 u 13:30 kod doktora Dusan Dusanovic, naziv pregledaUltrazvuk srca",
+  "read": true,
+  "patient": "aaaa",
+  "timeMiliseconds": {
+    "$numberLong": "1695036600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089ac85fb78c6a616ae268"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 08:00 kod doktora Dragan Draganovic, naziv pregledaOperacija slepog creva",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695189600000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089ac95fb78c6a616ae26f"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 10:00 kod doktora Dragan Draganovic, naziv pregledaOperacija slepog creva",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695196800000"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089acd5fb78c6a616ae276"
+  },
+  "text": "Zakazan pregled za 2023-09-21 u 12:00 kod doktora Dragan Draganovic, naziv pregledaOperacija slepog creva",
+  "read": false,
+  "patient": "lazar3122",
+  "timeMiliseconds": {
+    "$numberLong": "1695204000000"
+  },
+  "__v": 0
+}]

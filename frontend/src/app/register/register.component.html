@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body >
+        <div class="container-fluid">
+            <div class="row">
+                <header>
+                  <button (click)="back()" id="buttonC2">Nazad</button>
+                    
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div  style="display: flex; justify-content: center; align-items: center; padding-top: 1%;padding-bottom: 1%;">
+                    <div class="box">
+                        <div class="form-container">
+                            <h3>Registruj se</h3>
+                            <br/>
+                            <input placeholder="Korisničko ime" type="text" value="Korisničko ime" class="form-control box-input" [(ngModel)]="username" (blur)="usernameBlur()" (input)="usernameBlur()">
+                            <output type="text" style="color:red">{{MessageUsername}}</output>
+                            <input placeholder="Lozinka" type="password" value="Lozinka" class="form-control box-input"  [(ngModel)]="password" (blur)="passwordBlur()" (input)="passwordBlur()">
+                            <output type="text" style="color:red">{{MessagePassword}}</output>
+                            <input placeholder="Potvrda lozinke" type="password" value="Lozinka" class="form-control box-input"  [(ngModel)]="confirmPassword" (blur)="confirmPasswordBlur()" (input)="confirmPasswordBlur()">
+                            <output type="text" style="color:red">{{MessageConfirmPassword}}</output>
+                            <input placeholder="Ime" type="text" value="firstname" class="form-control box-input"  [(ngModel)]="firstname">
+                            <br>
+                            <input placeholder="Prezime" type="text" value="lastname" class="form-control box-input"  [(ngModel)]="lastname">
+                            <br>
+                            <input placeholder="Adresa" type="text" value="adress" class="form-control box-input"  [(ngModel)]="adress">
+                            <br>
+                            <input placeholder="Kontakt Telefon" type="text" value="phone" class="form-control box-input"  [(ngModel)]="phone" (blur)="phoneBlur()" (input)="phoneBlur()">
+                            <output type="text" style="color:red">{{MessagePhone}}</output>
+                            <input placeholder="Email" type="text" value="email" class="form-control box-input"  [(ngModel)]="email" (blur)="emailBlur()" (input)="emailBlur()">
+                            <output type="text" style="color:red">{{MessageEmail}}</output>
+                            <br/>
+                            Postavite profilnu sliku:<br>
+                            <input type='file' class="form-control box-input" (change)="openfile($event)" >
+                            <output type="text" style="color:red">{{ImageMessageError}}</output>
+                            <button (click)="register()" class="buttonC4">Registrujte se</button>
+                            <output type="text" style="color:green">{{Message}}</output>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
+

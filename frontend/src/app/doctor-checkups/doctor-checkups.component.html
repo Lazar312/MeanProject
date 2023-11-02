@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+            <button (click)="logout()" id="buttonC2">Izloguj se</button>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">   
+        <ul>
+        <li><button (click)="profile()" id="buttonC1">Profil</button></li>
+        <li><button (click)="checkup()" id="buttonC1">pregledi</button>
+        <li><button (click)="struff()" id="buttonC1">Razno</button>    
+        <li><button (click)="changepass()" id="buttonC1">Promena lozinke</button></li>
+        </ul>
+        </div>
+        <div class="col-sm-10" >
+          <h2 style="text-align: center; align-items: center;padding-bottom: 3%;"> Zakazani pregledi</h2>
+          <table>
+            <tr>
+              <td>
+                Pregled
+              </td>
+              <td>
+                Datum
+              </td>
+              <td>
+                Vreme
+              </td>
+              <td>Pacijent</td>
+              <td>Trajanje</td>
+              <td>Karton</td>
+              <td>Otkazi pregled</td>
+            </tr>
+            <tr *ngFor="let n of CheckupsByOrder">
+              <td> <output type="text" style="color: green;"> {{n.name}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.date}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.time}}</output></td>
+              <td> <output type="text" style="color: green;"> {{getpatientname(n.patient)}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.duration}}</output></td>
+              <td> <button (click)="look(n)" class="buttonC3">Pogledaj karton</button></td>
+              <td> <button (click)="cancel(n)" class="buttonC3">Otkazi</button></td>
+              
+            </tr>
+          </table>
+          
+          <div *ngIf="addReason" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;padding-bottom: 1%;">
+            
+            <div class="box">
+            <div class="form-container">
+              <h2 > Razlog otkazivanja</h2>
+              <input placeholder="Razlog otkazivanja" type="text" class="form-control box-input" [(ngModel)]="reason" >
+              <button (click)="cancelCheckup()" class="buttonC4">Otkazi</button>
+              <br/>
+              <br/>
+              <button (click)="closeaddReason()" class="buttonC4">Zatvori</button>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="OpenReport">
+          <h2 style="text-align: center; align-items: center;padding-top: 1%;"> Karton pacijenta</h2>
+            <table>
+              <tr>
+                <td>
+                  Razlog dolaska
+                </td>
+                <td>
+                  Dijagnoza
+                </td>
+                <td>
+                  Datum
+                </td>
+                <td>Vreme</td>
+                <td>Doktor</td>
+                <td>Specijalizacija</td>
+                <td>Terapija</td>
+                <td>Kontrola</td>
+              </tr>
+              <tr *ngFor="let n of AllReports">
+                <td> <output type="text" style="color: green; max-width: 150px;max-height: 1000px;"> {{n.cause}}</output></td>
+                <td> <output type="text" style="color: green; max-width: 200px;max-height: 1000px; overflow: hidden;"> {{n.diagnose}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.date}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.time}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.doctor}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.specialization}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.teraphy}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.dateControl}}</output></td>
+              </tr>
+            </table>
+            <div style="text-align: center; align-items: center;padding-top: 1%; padding-bottom: 1%;">
+              <button (click)="closelook()" class="buttonC3" >Zatvori karton</button>
+           
+            </div>
+             </div>
+             <div style="padding-top: 3%;">
+              <div class="calendar" >
+                <full-calendar [options]="calendarOptions" >
+                    <ng-template #eventContent let-arg>
+                      <b>{{arg.timeText}}</b>
+                      <i>{{arg.event.title}}</i>
+                    </ng-template>
+                  </full-calendar>
+              </div>
+            </div>
+          <h2 style="text-align: center; align-items: center;padding-top: 1%; padding-bottom: 1%;"> Unos izvestaja</h2>
+          <table>
+            <tr>
+              <td>
+                Pregled
+              </td>
+              <td>
+                Datum
+              </td>
+              <td>
+                Vreme
+              </td>
+              <td>Pacijent</td>
+              <td>Trajanje</td>
+              <td>Unesi izvestaj</td>
+            </tr>
+            <tr *ngFor="let n of getCurrentPageDoneCheckups()">
+              <td> <output type="textarea" style="color: green;"> {{n.name}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.date}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.time}}</output></td>
+              <td> <output type="text" style="color: green;"> {{getpatientname(n.patient)}}</output></td>
+              <td> <output type="text" style="color: green;"> {{n.duration}}</output></td>
+              <td> <button (click)="add(n)" class="buttonC3">Unesi</button></td>
+            </tr>
+          </table>
+          <div style="text-align: center; align-items: center;padding-top: 1%;">
+            <button (click)="previousPage()" [disabled]="currentPage === 1" class="buttonC3" >Prethodna strana</button>
+            <span style="padding-right: 1%; padding-left: 1%;">{{currentPage}} / {{totalPages}} </span> 
+            <button (click)="nextPage()" [disabled]="currentPage === totalPages" class="buttonC3">Sledeca strana</button>
+          </div>
+            <div *ngIf="AddReport"  style="display: flex; justify-content: center; align-items: center; padding-top: 2%;padding-bottom: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Dodaj izvestaj</h3>
+                        <br/>
+                            <textarea placeholder="Dijagnoza" type="textarea" class="form-control box-input"  [(ngModel)]="diagnose" class="form-control box-input" style="resize: none;"></textarea>
+                            <br>
+                            <textarea placeholder="Razlog dolaska" type="text" value="lastname" class="form-control box-input" [(ngModel)]="cause" style="resize: none;"></textarea>
+                            <br>
+                            <input placeholder="Preporucena terapija" type="text" class="form-control box-input" [(ngModel)]="theraphy" >
+                            Datum kontrole
+                            <input placeholder="" type="date" class="form-control box-input" (blur)="dateControlBlur()" (input)="dateControlBlur()" [(ngModel)]="dateControl">
+                            <output type="text" style="color:red">{{MessageErrorDate}}</output>
+                            <button (click)="addReport()" class="buttonC4">Dodaj</button>
+                            <div style="padding-top: 1%;">
+                                <button (click)="close()" class="buttonC4"> Zatvori Prozor</button>
+                            </div>
+                            <output type="text" style="color:green">{{Message}}</output>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+  &copy; 2023. All Rights Reserved.
+</footer>
+</html>
+

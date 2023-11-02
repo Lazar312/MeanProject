@@ -1,0 +1,865 @@
+[{
+  "_id": {
+    "$oid": "64f5fb031c2b79e1b675fccb"
+  },
+  "name": "Vađenje zuba",
+  "duration": 180,
+  "price": 1000,
+  "doctor": "Uros",
+  "date": "2023-10-04",
+  "time": "05:34"
+},
+{
+  "_id": {
+    "$oid": "64f5fb031c2b79e1b675fccd"
+  },
+  "name": "Ispiranje uha",
+  "duration": 60,
+  "price": 500,
+  "doctor": "Uros",
+  "date": "2023-12-4",
+  "time": "07:34"
+},
+{
+  "_id": {
+    "$oid": "64f5fb031c2b79e1b675fcce"
+  },
+  "name": "Pregled mokraće",
+  "duration": 30,
+  "price": 1500,
+  "doctor": "Marko",
+  "date": "2023-13-4",
+  "time": "08:34"
+},
+{
+  "_id": {
+    "$oid": "64f8e3471301593b1a554363"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-09",
+  "time": "23:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f8e3851301593b1a554372"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-08",
+  "time": "05:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f8e38a1301593b1a554375"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-08",
+  "time": "15:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501f54f7fea630bd6d649df"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-14",
+  "time": "19:45",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6501f5547fea630bd6d649e4"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-14",
+  "time": "17:45",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650267bb7fea630bd6d64c15"
+  },
+  "name": "Slobodan dan\n",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "dragan",
+  "date": "2023-09-15",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026f8a7fea630bd6d64ca5"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "00:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026fb07fea630bd6d64caa"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "12:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026fbf7fea630bd6d64caf"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "02:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026fc97fea630bd6d64cb4"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "03:40",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026fcc7fea630bd6d64cb9"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "05:40",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65026fcf7fea630bd6d64cbe"
+  },
+  "name": "Operacija",
+  "duration": 100,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "07:40",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650276f57fea630bd6d64dd9"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "dragan",
+  "date": "2023-09-17",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650276f57fea630bd6d64ddb"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "dragan",
+  "date": "2023-09-20",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650276f57fea630bd6d64ddd"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "dragan",
+  "date": "2023-09-18",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650276f57fea630bd6d64ddf"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "dragan",
+  "date": "2023-09-19",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b44d31e6c369556343e3"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "09:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b48031e6c369556343ec"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "10:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b4b031e6c369556343f3"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "11:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b6b031e6c3695563440a"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "11:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b6f031e6c36955634415"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "10:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71a31e6c3695563441c"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "14:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71b31e6c36955634423"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "14:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b71d31e6c3695563442a"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "15:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72131e6c36955634431"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "15:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72631e6c36955634438"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "16:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72731e6c3695563443f"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "16:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b72731e6c36955634446"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "17:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b78631e6c3695563444d"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "23:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b78631e6c36955634454"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-16",
+  "time": "23:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8b831e6c3695563445f"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "00:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c36955634466"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "00:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c3695563446d"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "01:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8ba31e6c36955634474"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "02:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6503b8bb31e6c3695563447b"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "02:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65046b23e3f13f8b4e66f829"
+  },
+  "name": "Vađenje zuba",
+  "duration": 180,
+  "price": 1000,
+  "doctor": "Uros",
+  "date": "2023-09-17",
+  "time": "00:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65046fbee3f13f8b4e66f84c"
+  },
+  "name": "Vađenje zuba",
+  "duration": 180,
+  "price": 1000,
+  "doctor": "Uros",
+  "date": "2023-09-16",
+  "time": "01:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65046fd4e3f13f8b4e66f853"
+  },
+  "name": "Vađenje zuba",
+  "duration": 180,
+  "price": 1000,
+  "doctor": "Uros",
+  "date": "2023-09-16",
+  "time": "04:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f633991aedb6dec2b166"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "01:30",
+  "patient": "lazar3124",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f636991aedb6dec2b16d"
+  },
+  "name": "Operacija srca",
+  "duration": 30,
+  "price": 100,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "03:00",
+  "patient": "lazar3124",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6506f936895145760e7d6b55"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "23:30",
+  "patient": "lazar3124",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0afb640439a2e3540b"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "05:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0bfb640439a2e35412"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "06:30",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0bfb640439a2e35419"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "06:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f0bfb640439a2e35420"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "05:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65071f11fb640439a2e35427"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "07:15",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072246fb640439a2e35462"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "04:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072e2885bd28e5cd43eb5b"
+  },
+  "name": "Operacija",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "Uros",
+  "date": "2023-09-17",
+  "time": "18:50",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507307085bd28e5cd43eb83"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-18",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507308485bd28e5cd43eb89"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-19",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb93"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-23",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb95"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-28",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb97"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-29",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb99"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-30",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb9b"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-26",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb9d"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-24",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eb9f"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-25",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6507309685bd28e5cd43eba1"
+  },
+  "name": "",
+  "duration": 1440,
+  "price": 0,
+  "doctor": "Uros",
+  "date": "2023-09-27",
+  "time": "00:00",
+  "patient": "",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088607891c10b90f02afb0"
+  },
+  "name": "Vadjenje zuba",
+  "duration": 60,
+  "price": 1500,
+  "doctor": "Uros",
+  "date": "2023-09-22",
+  "time": "07:30",
+  "patient": "aaaa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088608891c10b90f02afbe"
+  },
+  "name": "Vadjenje zuba",
+  "duration": 60,
+  "price": 1500,
+  "doctor": "Uros",
+  "date": "2023-09-22",
+  "time": "09:00",
+  "patient": "aaaa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508887a891c10b90f02b03f"
+  },
+  "name": "Ultrazvuk srca",
+  "duration": 60,
+  "price": 100,
+  "doctor": "Dusan",
+  "date": "2023-09-18",
+  "time": "19:28",
+  "patient": "aaaa",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089ac85fb78c6a616ae265"
+  },
+  "name": "Operacija slepog creva",
+  "duration": 120,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "08:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089ac95fb78c6a616ae26c"
+  },
+  "name": "Operacija slepog creva",
+  "duration": 120,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "10:00",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65089acd5fb78c6a616ae273"
+  },
+  "name": "Operacija slepog creva",
+  "duration": 120,
+  "price": 10000,
+  "doctor": "dragan",
+  "date": "2023-09-21",
+  "time": "12:00",
+  "patient": "lazar3122",
+  "__v": 0
+}]

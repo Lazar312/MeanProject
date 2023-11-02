@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body >
+        <div class="container-fluid">
+            <div class="row">
+                <header>
+                  <button (click)="back()" id="buttonC2">Nazad</button>
+                    
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                        <div class="box">
+                            <div class="form-container">
+                                <h3>Ulogujte se</h3>
+                                <br/>
+                                    <input placeholder="Korisničko ime" type="text" value="Korisničko ime" class="form-control box-input" [(ngModel)]="username" 
+                                    (blur)="refresh()" (input)="refresh()">
+                                    <input placeholder="Lozinka" type="password" value="Lozinka" class="form-control box-input"  [(ngModel)]="password" 
+                                    (blur)="refresh()" (input)="refresh()">
+                                    <button (click)="login()" class="buttonC4">Login</button>
+                                    Nemate Nalog? Regustrujte se ovde:
+                                    <button (click)="register()" class="buttonC4">Registrujte se</button>
+                                    <br/>
+                                    <output type="text" style="color:red">{{Message}}</output>
+                            </div>
+                        </div>
+            </div>
+            </div>
+        </div>
+    </body>
+    <footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+        &copy; 2023. All Rights Reserved.
+      </footer>
+</html>
+

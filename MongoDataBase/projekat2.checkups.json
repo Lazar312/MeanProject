@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "650278907fea630bd6d64e43"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 1000,
+  "doctor": "dragan",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650278917fea630bd6d64e4a"
+  },
+  "name": "Operacija slepog creva",
+  "duration": 120,
+  "price": 10000,
+  "doctor": "dragan",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650278927fea630bd6d64e51"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "dragan",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088510891c10b90f02af50"
+  },
+  "name": "Otklanjanje karijesa",
+  "duration": 30,
+  "price": 1000,
+  "doctor": "Uros",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65088513891c10b90f02af5d"
+  },
+  "name": "Vadjenje zuba",
+  "duration": 60,
+  "price": 1500,
+  "doctor": "Uros",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508881d891c10b90f02b023"
+  },
+  "name": "Ultrazvuk srca",
+  "duration": 5,
+  "price": 100,
+  "doctor": "Dusan",
+  "__v": 0
+}]

@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "64fbb435b2701afcce5e6d44"
+  },
+  "name": "Vadjenje zuba",
+  "duration": 60,
+  "price": 1500,
+  "specialization": "Stomatolog"
+},
+{
+  "_id": {
+    "$oid": "64fbb435b2701afcce5e6d45"
+  },
+  "name": "Operacija srca",
+  "duration": 240,
+  "price": 1000,
+  "specialization": "Hirurg"
+},
+{
+  "_id": {
+    "$oid": "64fbb435b2701afcce5e6d47"
+  },
+  "name": "Pregled mokraće",
+  "duration": 30,
+  "price": 10000,
+  "specialization": "Urolog"
+},
+{
+  "_id": {
+    "$oid": "64fbba97b2701afcce5e6d4c"
+  },
+  "name": "Operacija slepog creva",
+  "duration": 120,
+  "price": 10000,
+  "specialization": "Hirurg"
+},
+{
+  "_id": {
+    "$oid": "64fc8340a4745d3139b04edc"
+  },
+  "name": "Operacija mozga",
+  "duration": 30,
+  "price": 1000,
+  "specialization": "Hirurg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64fc91aa1941f0d60b095472"
+  },
+  "name": "Otklanjanje karijesa",
+  "duration": 30,
+  "price": 1000,
+  "specialization": "Stomatolog",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65007ac7c4f3fccdb8cd68e8"
+  },
+  "name": "Operacija mozga3",
+  "duration": 30,
+  "price": 1000,
+  "specialization": "Hirurg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6508873b891c10b90f02afe8"
+  },
+  "name": "Ultrazvuk srca",
+  "duration": 5,
+  "price": 100,
+  "specialization": "Kardiolog",
+  "__v": 0
+}]

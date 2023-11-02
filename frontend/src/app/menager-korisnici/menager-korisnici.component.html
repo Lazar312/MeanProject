@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+          <button (click)="requests()" id="buttonC2">Zahtevi za registraciju</button>
+          <button (click)="addDoctor()" id="buttonC2">Dodaj doktora</button>
+          <button (click)="back()" id="buttonC2">Nazad</button>
+            
+        </header>
+    </div>
+    <div class="row">  
+        <div class="col-sm-12">
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%;"> Pacijenti</h2>
+            <table>
+              <tr>
+                <td>
+                  Slika
+                </td>
+                <td>
+                Ime
+                </td>
+                
+                <td>
+                    Prezime
+                </td>
+                <td>Telefon</td>
+                <td>Email</td>
+                <td>Adresa</td>
+                <td>Azuriraj</td>
+                <td>Obrisi</td>
+              </tr>
+              <tr *ngFor="let n of AllKorisnik">
+                <td class="td">
+                    <img [width]="40" [height]="40" [src]="display(n.ImageBuffer)">
+                </td>
+                <td> <output type="text" style="color: green;"> {{n.firstname}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lastname}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.phone}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.email}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.adress}}</output></td>
+                <td> <button (click)="updateP(n.username)" class="buttonC3">Azuriraj</button></td>
+                <td> <button (click)="delete(n.username)" class="buttonC3">Obrisi</button></td>
+              </tr>
+            </table>
+            <div *ngIf="updatePat" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;padding-bottom: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Azuriraj</h3>
+                        <br/>
+                            <input placeholder="Ime" type="text" value="firstname" class="form-control box-input"  [(ngModel)]="firstnamePatient">
+                            <br>
+                            <input placeholder="Prezime" type="text" value="lastname" class="form-control box-input"  [(ngModel)]="lastnamePatient">
+                            <br>
+                            <input placeholder="Adresa" type="text" value="adress" class="form-control box-input"  [(ngModel)]="adressPatient">
+                            <br>
+                            <input placeholder="Kontakt Telefon" type="text" value="phone" class="form-control box-input"  [(ngModel)]="phonePatient" (blur)="phoneBlur()" (input)="phoneBlur()">
+                            <output type="text" style="color:red">{{MessagePhone}}</output>
+                            <input placeholder="Email" type="text" value="email" class="form-control box-input"  [(ngModel)]="emailPatient" (blur)="emailBlur()" (input)="emailBlur()">
+                            <output type="text" style="color:red">{{MessageEmail}}</output>
+                            <br>Postavite profilnu sliku:
+                            <input type='file' class="form-control box-input" (change)="openfile($event)" >
+                            <output type="text" style="color:red">{{ImageMessageError}}</output>
+                            <button (click)="updatePatient()" class="buttonC4">Azuriraj</button>
+                            <output type="text" style="color:green">{{Message}}</output>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                    </div>
+                </div>
+            </div>
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%; padding-top: 1%;"> Doktori</h2>
+            <table>
+              <tr>
+                <td>
+                  Slika
+                </td>
+                <td>
+                Ime
+                </td>
+                
+                <td>
+                    Prezime
+                </td>
+                <td>Telefon</td>
+                <td>Email</td>
+                <td>Adresa</td>
+                <td>Specijalizacija</td>
+                <td>Broj licence</td>
+                <td>Ogranak</td>
+                <td>Azuriraj</td>
+                <td>Obrisi</td>
+              </tr>
+              <tr *ngFor="let n of AllDoctors">
+                <td class="td">
+                    <img [width]="40" [height]="40" [src]="display(n.ImageBuffer)">
+                </td>
+                <td> <output type="text" style="color: green;"> {{n.firstname}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lastname}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.phone}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.email}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.adress}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.Specialization}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lotNum}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.WorksAt}}</output></td>
+                <td> <button (click)="updateD(n)" class="buttonC3">Azuriraj</button></td>
+                <td> <button (click)="delete(n.username)" class="buttonC3">Obrisi</button></td>
+              </tr>
+            </table>
+            <div *ngIf="updateDoc" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Azuriraj</h3>
+                        <br/>
+                            <input placeholder="Ime" type="text" value="firstname" class="form-control box-input"  [(ngModel)]="firstnameDoctor">
+                            <br>
+                            <input placeholder="Prezime" type="text" value="lastname" class="form-control box-input"  [(ngModel)]="lastnameDoctor">
+                            <br>
+                            <input placeholder="Adresa" type="text" value="adress" class="form-control box-input"  [(ngModel)]="adressDoctor">
+                            <br>
+                            <input placeholder="Kontakt Telefon" type="text" value="phone" class="form-control box-input"  [(ngModel)]="phoneDoctor" (blur)="phoneBlurDoctor()" (input)="phoneBlurDoctor()">
+                            <output type="text" style="color:red">{{MessagePhone}}</output>
+                            <input placeholder="Email" type="text" value="email" class="form-control box-input"  [(ngModel)]="emailDoctor" (blur)="emailBlurDoctor()" (input)="emailBlurDoctor()">
+                            <output type="text" style="color:red">{{MessageEmail}}</output>
+                            <select class="form-control box-input"  [(ngModel)]="SpecializationDoctor">
+                              <option value="null" disabled selected hidden>Odaberi Specijalizaciju</option>
+                              <option *ngFor="let n of AllSpecializations" value="{{n.specialization}}">{{n.specialization}}</option>
+                            </select>
+                            <br>
+                            <input placeholder="Ogranak" type="text" value="adress" class="form-control box-input"  [(ngModel)]="WorksAtDoctor">
+                            <br>
+                            <input placeholder="Licenca" type="number" value="adress" class="form-control box-input"  [(ngModel)]="LotNumDoctor">
+                            <br>
+                            <br>Postavite profilnu sliku:
+                            <input type='file' class="form-control box-input" (change)="openfile($event)" >
+                            <output type="text" style="color:red">{{ImageMessageError}}</output>
+                            <button (click)="updateDoctor()" class="buttonC4">Azuriraj</button>
+                            <output type="text" style="color:green">{{Message}}</output>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                    </div>
+
+                    <br/>
+                    <output type="text" style="color:red">{{Message}}</output>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+  &copy; 2023. All Rights Reserved.
+</footer>
+</html>

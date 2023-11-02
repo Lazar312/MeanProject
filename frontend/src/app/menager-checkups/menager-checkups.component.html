@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+          <button (click)="back()" id="buttonC2">Nazad</button>
+            
+        </header>
+    </div>
+    <div class="row">  
+        <div class="col-sm-12">
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%;"> Zatrazeni pregledi</h2>
+            <table>
+              <tr>
+                <td>
+                  Naziv
+                </td>
+                <td>
+                    Trajanje
+                </td>
+                    Cena
+                <td>
+                    Specijalizacija
+                </td>
+                <td>Doktor</td>
+                <td>Odobri</td>
+                <td>Odbij</td>
+              </tr>
+              <tr *ngFor="let n of AllCheckupRequested">
+                <td> <output type="text" style="color: green;"> {{n.name}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.duration}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.price}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.specialization}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.doctor}}</output></td>
+                <td> <button (click)="approve(n)" class="buttonC3">Odobri</button></td>
+                <td> <button (click)="decline(n)" class="buttonC3">Odbij</button></td>
+              </tr>
+            </table>
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%;padding-top: 1%;"> Dodaj specijalizaciju/pregled</h2>
+            <div style="display: flex; justify-content: center; align-items: center; ;padding-bottom: 1%; ">
+                <button (click)="addC()" class="buttonC4">Dodaj pregled</button> &nbsp;
+                <button (click)="add()" class="buttonC4">Dodaj specijalizaciju</button>
+            </div>
+            <div *ngIf="addS" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Dodaj specijalizaciju</h3>
+                        <br/>
+                            <input placeholder="Scelijalizacija" type="text" value="price" class="form-control box-input"  [(ngModel)]="Specialization">
+                            <br>
+                            <button (click)="addSpecialization()" class="buttonC5">Azuriraj</button>
+                            <output type="text" style="color:green">{{MessageS}}</output>
+                            <output type="text" style="color:red">{{MessageErrorS}}</output>
+                            <div style="padding-top: 0.5%;">
+                                <button (click)="closeadd()" class="buttonC5"> ZatvoriProzor</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="addcheck" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Dodaj pregled</h3>
+                        <br/>
+                            <input placeholder="Naziv" type="text" value="price" class="form-control box-input"  [(ngModel)]="nameC">
+                            <br>
+                            <input placeholder="Cena" type="number" value="price" class="form-control box-input"  [(ngModel)]="priceC">
+                            <br>
+                            <input placeholder="Duzina pregleda" type="number" value="price" class="form-control box-input"  [(ngModel)]="durationC">
+                            <br>
+                            <select class="form-control box-input"  [(ngModel)]="SpecializationC">
+                                <option value="null" disabled selected hidden>Odaberi Specijalizaciju</option>
+                                <option *ngFor="let n of AllSpecialization" value="{{n.specialization}}">{{n.specialization}}</option>
+                            </select>
+                            <br/>
+                            <button (click)="addCheckup()" class="buttonC5">Azuriraj</button>
+                            <output type="text" style="color:green">{{MessageC}}</output>
+                            <output type="text" style="color:red">{{MessageErrorC}}</output>
+                            <div style="padding-top: 0.5%;">
+                                <button (click)="closeaddC()" class="buttonC5"> ZatvoriProzor</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%;"> Pregledi</h2>
+            <table>
+                <tr>
+                  <td>
+                    Naziv
+                  </td>
+                  <td>
+                      Trajanje
+                  </td>
+                      Cena
+                  <td>
+                      Specijalizacija
+                  </td>
+                  <td>Azuriraj</td>
+                  <td>Obrisi</td>
+                </tr>
+                <tr *ngFor="let n of AllCheckup">
+                  <td> <output type="text" style="color: green;"> {{n.name}}</output></td>
+                  <td> <output type="text" style="color: green;"> {{n.duration}}</output></td> 
+                  <td> <output type="text" style="color: green;"> {{n.price}}</output></td> 
+                  <td> <output type="text" style="color: green;"> {{n.specialization}}</output></td> 
+                  <td> <button (click)="update(n)" class="buttonC3">Azuriraj</button></td>
+                  <td> <button (click)="delete(n)" class="buttonC3">Obrisi</button></td>
+                </tr>
+              </table>
+              <div *ngIf="updateCheckup" style="display: flex; justify-content: center; align-items: center; padding-top: 1%;">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Azuriraj</h3>
+                        <br/>
+                            <input placeholder="Ime" type="text" value="price" class="form-control box-input"  [(ngModel)]="nameUpdate">
+                            <br>
+                            <input placeholder="Cena" type="number" value="price" class="form-control box-input"  [(ngModel)]="price">
+                            <br>
+                            <input placeholder="Duzina pregleda" type="number" value="duration" class="form-control box-input"  [(ngModel)]="duration">
+                            <br>
+                            
+                            <button (click)="updateSelectCheckup()" class="buttonC5">Azuriraj</button>
+                            <output type="text" style="color:red">{{MessageError}}</output>
+                            <div style="padding-top: 0.5%;">
+                                <button (click)="close()" class="buttonC5"> ZatvoriProzor</button>
+                            </div>
+                            
+                    </div>
+
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+    &copy; 2023. All Rights Reserved.
+  </footer>
+</html>

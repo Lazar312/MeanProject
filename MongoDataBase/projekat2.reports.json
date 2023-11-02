@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "64f9bebe19276d98ba96db75"
+  },
+  "diagnose": "Vađenje zuba",
+  "cause": "Preskakanje srca",
+  "specialization": "Hirurg",
+  "doctor": "dragan petrovic",
+  "date": "2023-07-06",
+  "time": "05:34",
+  "teraphy": "niksar 2x2",
+  "dateControl": "2024-05-11",
+  "patient": "lazar3122"
+},
+{
+  "_id": {
+    "$oid": "64f9bebe19276d98ba96db76"
+  },
+  "diagnose": "Vađenje zuba",
+  "cause": "Preskakanje srca",
+  "specialization": "Hirurg",
+  "doctor": "dragan petrovic",
+  "date": "2023-07-04",
+  "time": "05:34",
+  "teraphy": "niksar 2x2",
+  "dateControl": "2023-10-11",
+  "patient": "lazar3122"
+},
+{
+  "_id": {
+    "$oid": "64f9bebe19276d98ba96db77"
+  },
+  "diagnose": "Vađenje zuba",
+  "cause": "Preskakanje srca",
+  "specialization": "Hirurg",
+  "doctor": "dragan petrovic",
+  "date": "2023-09-03",
+  "time": "05:34",
+  "teraphy": "niksar 2x2",
+  "dateControl": "2023-10-11",
+  "patient": "lazar3122"
+},
+{
+  "_id": {
+    "$oid": "64f9bebe19276d98ba96db78"
+  },
+  "diagnose": "Uradjeno to i to takodje je primeceno to i to savetuje se da pacijent radi to i to ...\nasfasfasffsaasf\nafsfsasfaasfaf\nssssssssssssssss ssssssssss asasffasfasfs asfaaaaaaaaaaa aaaaaaaaaaaaaaa aashqjhtpqhpqtwhupiowtq uhitwpqotwuqhipwqtuhiot wquhitwuhioqwtihuotwq uihotwqhuiotwquhioqwthiuo wtqtqwuhiotwquhiowtqihutwqu hitqwq\n",
+  "cause": "Preskakanje srca",
+  "specialization": "Hirurg",
+  "doctor": "dragan petrovic",
+  "date": "2023-06-04",
+  "time": "05:34",
+  "teraphy": "niksar 2x2",
+  "dateControl": "2024-01-11",
+  "patient": "lazar3122"
+},
+{
+  "_id": {
+    "$oid": "64ffc9747c463bccb74d6cee"
+  },
+  "diagnose": "Uradjeno to i to preporucuje se to i to...",
+  "cause": "Operacija srca",
+  "specialization": "Hirurg",
+  "doctor": "Dragan Draganovic",
+  "date": "2023-09-12",
+  "time": "04:14",
+  "teraphy": "amoldipin 2x2",
+  "dateControl": "2023-09-20",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ffc9ba7c463bccb74d6cf5"
+  },
+  "diagnose": "fasfasafs",
+  "cause": "fsafsasaf",
+  "specialization": "Hirurg",
+  "doctor": "Dragan Draganovic",
+  "date": "2023-09-12",
+  "time": "04:15",
+  "teraphy": "sfafsaasf",
+  "dateControl": "2023-09-27",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "650729b2fb640439a2e355f9"
+  },
+  "diagnose": "AFSJKFAKSJFASF",
+  "cause": "Vadjenje zuba",
+  "specialization": "Hirurg",
+  "doctor": "Dragan Petrovic",
+  "date": "2023-09-17",
+  "time": "18:30",
+  "teraphy": "asffasfsfaa",
+  "dateControl": "2023-09-27",
+  "patient": "lazar3122",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65072a13fb640439a2e35605"
+  },
+  "diagnose": "Nije dobro",
+  "cause": "Vadjenje zuba",
+  "specialization": "Hirurg",
+  "doctor": "Dragan Petrovic",
+  "date": "2023-09-17",
+  "time": "18:32",
+  "teraphy": "asfhkjfaskfahjs",
+  "dateControl": "2023-09-30",
+  "patient": "lazar3122",
+  "__v": 0
+}]

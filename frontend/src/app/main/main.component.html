@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<body>
+    
+      
+      
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+            <button (click)="login()" id="buttonC2">Ulogujte se</button>
+        </header>
+    </div>
+    
+    <div class="row">
+
+        <div class="col-sm-12" style="padding: 1%;">
+            <div style=" align-items: center; text-align: center; padding-top: 1%;padding-bottom: 1%;">
+            <h2 > Dobrodošli na internet stranicu
+                lekarske ordinacije</h2>
+                Ova lekarska ordinacija ima {{numofDoctors}} lekara čije su specijalizacije sledece:
+                <output *ngFor="let n of AllSpecializaton" type="text" style="color:green">{{n}}&nbsp;
+                </output>
+            </div>
+            <div class="row" style="padding: 0;">
+                <div class="col-sm-12" style="padding: 0; min-height: 0vh; background-image: none;">
+                    <ngb-carousel [interval]="4000" style="margin: 0; padding: 0;">
+                        <ng-template ngbSlide *ngFor="let image of images">
+                            <div class="carousel-wrapper" style="display: flex; justify-content: center; align-items: center; ">
+                                <img src="assets/{{ image.name }}" style="margin: 0; padding: 0;">
+                            </div>
+                        </ng-template>
+                    </ngb-carousel>
+                </div>
+            </div>
+            
+            <div class="table-container" style="padding-top: 2%;">
+            <table class="alignTable">
+                <tr>
+                    <td class="alignTable">
+                        <h3 >Sortiraj</h3>
+                    </td>
+                </tr>
+                <br/>
+                <tr>
+                    <td>
+                        <select class="form-control box-input" [(ngModel)]="SelectedSort">
+                            <option value="0" disabled selected hidden>Odaberi opciju</option>
+                            <option value="1">Neopadajuće Ime</option>
+                            <option value="2">Nerastuće Ime</option>
+                            <option value="3">Neopadajuće Prezime</option>
+                            <option value="4">Nerastuće Prezime</option>
+                            <option value="5">Neopadajuće Specijalizacija</option>
+                            <option value="6">Nerastuće Specijalizacija</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button (click)="sort()" class="buttonC3">Sortiraj</button>
+                    </td>
+                </tr>
+            </table >
+        
+            <br/>
+            <table class="alignTable">
+                <tr>
+                    <td>
+
+                    </td>
+                    <td class="alignTable">
+                        <h3 >Pretrazi</h3>
+                    </td>
+                </tr>
+                <br/>
+                <tr>
+                    <td>
+                        <input class="form-control box-input" type="text"  placeholder="Ime" [(ngModel)]="firstnameSearch">
+                    </td>
+                    <td>
+                        <input type="text"  placeholder="Prezime" class="form-control box-input" [(ngModel)]="lastnameSearch">
+                    </td>
+                    <td>
+                        <input type="text"  placeholder="Specijalizacija" class="form-control box-input" [(ngModel)]="SpecializationSearch">
+                    </td>
+                    <td>
+                        <button (click)="search()" class="buttonC3">Pretrazi</button>
+                    </td>
+                </tr>
+            </table >
+        </div>
+            
+            <table style="width: 100%;
+            max-width: 100%;
+            border-collapse: collapse;">
+                <br/>
+                <br/>
+                <tr>
+                    <td class="td">Profilna slika</td>
+                    <td class="td">Ime</td>
+                    <td class="td">Prezime</td>
+                    <td class="td">Specijalizacija</td>
+                </tr>
+                <tr *ngFor="let n of AllDoctors">
+                    <td class="td">
+                        <img [width]="40" [height]="40" [src]="display(n.ImageBuffer)">
+                    </td>
+                    <td>
+                        Ime: <output type="text" style="color:green">{{n.firstname}}</output>
+                    </td >
+                    <td class="td">
+                        Prezime: <output type="text" style="color:green">{{n.lastname}}</output>
+                    </td>
+                    <td class="td">
+                        Specijalizacija: <output type="text" style="color:green">{{n.Specialization}}</output>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+    &copy; 2023. All Rights Reserved.
+  </footer>
+</html>

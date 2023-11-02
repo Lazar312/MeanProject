@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+            <button (click)="logout()" id="buttonC2">Izloguj se</button>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">   
+        <ul>
+        <li><button (click)="profile()" id="buttonC1">Profil</button></li>
+        <li><button (click)="doctors()" id="buttonC1">Lekari</button></li>
+        <li><button (click)="checkup()" id="buttonC1">pregledi</button>
+        <li><button (click)="notifications()" id="buttonC1">Obavestenja</button>    
+        <li><button (click)="changepass()" id="buttonC1">Promena lozinke</button></li>
+        </ul>
+        </div>
+        <div class="col-sm-10" style="padding-bottom: 1%;" >
+          <h2 style="text-align: center; align-items: center;padding-bottom: 1%;"> Obavestenja</h2>
+            <table>
+              <tr *ngFor="let n of getCurrentPageNotifications()" [style.background-color]="!n.read ? 'lightgray' : 'none'" (click)="rowClicked(n)">
+                <td> <output type="text" style="color: green;"> {{n.text}}</output></td>
+                <td>
+                  <button (click)="deleteNotification(n)" class="delete-button">Obriši</button>
+                </td>
+              </tr>
+            </table>
+            <div style="text-align: center; align-items: center;padding-top: 1%;">
+              <button (click)="previousPage()" [disabled]="currentPage === 1" class="buttonC3" >Prethodna strana</button>
+              <span style="padding-right: 1%; padding-left: 1%;">{{currentPage}} / {{totalPages}} </span> 
+              <button (click)="nextPage()" [disabled]="currentPage === totalPages" class="buttonC3">Sledeca strana</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+  &copy; 2023. All Rights Reserved.
+</footer>
+</html>
+

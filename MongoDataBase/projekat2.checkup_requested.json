@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "64fd0b3d1941f0d60b0956fa"
+  },
+  "name": "Operacija creva",
+  "duration": 120,
+  "price": 30,
+  "doctor": "dragan",
+  "specialization": "Hirurg",
+  "__v": 0
+}]

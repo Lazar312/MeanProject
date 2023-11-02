@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+          <button (click)="back()" id="buttonC2">Nazad</button>
+        </header>
+    </div>
+    <div class="row">  
+        <div class="col-sm-12">
+                <div class="box"  >
+                    <div class="form-container">
+                        <h3>Dodaj promociju</h3>
+                        <br/>
+                        <textarea placeholder="Tekst promocije" type="text" class="form-control box-input"  [(ngModel)]="text" style="resize: none; text-align: center;" (input)="textInput()"></textarea>
+                        <br>
+                        <button (click)="addNotification()" class="buttonC4">Dodaj</button>
+                        <output type="text" style="color:green">{{Message}}</output>
+                        <output type="text" style="color:red">{{MessageError}}</output>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+    &copy; 2023. All Rights Reserved.
+  </footer>
+</html>

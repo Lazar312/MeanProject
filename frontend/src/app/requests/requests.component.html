@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+
+<html>
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+          <button (click)="back()" id="buttonC2">Nazad</button>
+        </header>
+    </div>
+    <div class="row">  
+        <div class="col-sm-12">
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%;"> Pacijenti</h2>
+            <table>
+              <tr>
+                <td>
+                  Slika
+                </td>
+                <td>
+                Ime
+                </td>
+                
+                <td>
+                    Prezime
+                </td>
+                <td>Telefon</td>
+                <td>Email</td>
+                <td>Adresa</td>
+                <td>Prihvati</td>
+                <td>Odbij</td>
+              </tr>
+              <tr *ngFor="let n of AllKorisnik">
+                <td class="td">
+                    <img [width]="40" [height]="40" [src]="display(n.ImageBuffer)">
+                </td>
+                <td> <output type="text" style="color: green;"> {{n.firstname}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lastname}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.phone}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.email}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.adress}}</output></td>
+                <td> <button (click)="acceptP(n)" class="buttonC3">Prihvati</button></td>
+                <td> <button (click)="rejectP(n.username)" class="buttonC3">Odbij</button></td>
+              </tr>
+            </table>
+            <h2 style="text-align: center; align-items: center;padding-bottom: 1%; padding-top: 1%;"> Doktori</h2>
+            <table>
+              <tr>
+                <td>
+                  Slika
+                </td>
+                <td>
+                Ime
+                </td>
+                
+                <td>
+                    Prezime
+                </td>
+                <td>Telefon</td>
+                <td>Email</td>
+                <td>Adresa</td>
+                <td>Specijalizacija</td>
+                <td>Broj licence</td>
+                <td>Ogranak</td>
+                <td>Prihvati</td>
+                <td>Odbij</td>
+              </tr>
+              <tr *ngFor="let n of AllDoctors">
+                <td class="td">
+                    <img [width]="40" [height]="40" [src]="display(n.ImageBuffer)">
+                </td>
+                <td> <output type="text" style="color: green;"> {{n.firstname}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lastname}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.phone}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.email}}</output></td> 
+                <td> <output type="text" style="color: green;"> {{n.adress}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.Specialization}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.lotNum}}</output></td>
+                <td> <output type="text" style="color: green;"> {{n.WorksAt}}</output></td>
+                <td> <button (click)="acceptD(n)" class="buttonC3">Prihvati</button></td>
+                <td> <button (click)="rejectD(n.username)" class="buttonC3">Odbij</button></td>
+              </tr>
+            </table>
+        </div>
+    </div>
+  </div>
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+  &copy; 2023. All Rights Reserved.
+</footer>
+</html>

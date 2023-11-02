@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <header>
+            <button (click)="back()" id="buttonC2">Nazad</button>
+        </header>
+    </div>
+    <div class="row">  
+        
+        <div class="col-sm-12" style="background-image: url('../../assets/bkgrnd.avif');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 90vh;
+        min-width: 100%;
+        "
+        >
+            <h2 style="text-align: center;"> Informacije o doktoru</h2>
+            <table class="table-container">
+                <tr>
+                    <td>
+                        Ime: <output type="text" style="color:green">{{firstname}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Prezime: <output type="text" style="color:green">{{lastname}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Specijalizacija: <output type="text" style="color:green">{{Specialization}}</output>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Ogranak: <output type="text" style="color:green">{{WorksAt}}</output>
+                    </td>
+                </tr>
+            </table>
+    <div class="row" style=" padding-top:1%">
+        <div class="col-sm-12">
+            <h2 style="text-align: center;">Pregledi</h2>
+                <table >
+                        <tr>
+                            <td>Ime pregleda</td>
+                            <td>Vreme trajanja</td>
+                            <td>Cena</td>
+                        </tr>
+                        <tr *ngFor="let n of Checkups">
+                            <td class="td">
+                                <output type="text" style="color:green">{{n.name}}</output>
+                            </td>
+                            <td>
+                                <output type="text" style="color:green">{{n.duration}}</output>
+                            </td>
+                            <td>
+                                <output type="text" style="color:green">{{n.price}}</output>
+                            </td>
+                        </tr>
+                </table>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 1%;">
+        <div class="col-sm-3" style="padding-top: 2%;">
+            <h2 style="text-align: center;">Zakazi pregled</h2>
+            <table>
+                <tr>
+                    <td>
+                        <select class="form-control box-input" [(ngModel)]="selected">
+                            <option value="0" disabled selected hidden>Odaberi pregled</option>
+                            <option *ngFor="let n of Checkups" value="{{n.name}}">{{n.name}}</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date"  placeholder="Datum" class="form-control box-input" [(ngModel)]="date" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="time"  placeholder="Vreme" class="form-control box-input" [(ngModel)]="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button (click)="schedule()" class="buttonC3">Zakazi</button>
+                    </td>
+                </tr>
+            </table>
+            <output type="text" style="color:green">{{Message}}</output>
+            <output type="text" style="color:red">{{MessageError}}</output>
+        </div>
+        
+        <div class="col-sm-9">
+            <div class="calendar">
+                <full-calendar [options]="calendarOptions" >
+                    <ng-template #eventContent let-arg>
+                      <b>{{arg.timeText}}</b>
+                      <i>{{arg.event.title}}</i>
+                    </ng-template>
+                  </full-calendar>
+              </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+  
+</body>
+<footer class="footer" style="background-color: #333; color: #fff; text-align: center;">
+    &copy; 2023. All Rights Reserved.
+  </footer>
+</html>
