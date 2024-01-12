@@ -1,4 +1,4 @@
-### Mean-project
+# Mean-project
 
 Project finished using MEAN tools.
 
