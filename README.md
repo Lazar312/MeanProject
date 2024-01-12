@@ -4,7 +4,9 @@ Project finished using MEAN tools.
 
 Key of this project was implementing web page for doctor ordination
 
-## Instalation and Usage
+Text of the project is located in ProjectTeks.pdf file
+
+## Instalation and Usage 
 
 
 1. Clone this reposotorz using git clone
